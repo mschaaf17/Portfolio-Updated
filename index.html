@@ -1,78 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./assets/style.css">
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Document</title>
-</head>
-<body>
-<header>
-    <nav class="top-nav">
+  </head>
+  <body>
+    <header>
+      <nav class="top-nav">
         <h3 id="logo">Madison's Portfolio</h3>
         <input id="menu-toggle" type="checkbox" />
-    <label class='menu-button-container' for="menu-toggle">
-    <div class='menu-button'></div>
-  </label>
-    <ul class="menu">
-      <li>
-        <a href="#about-me">About Me</a>
-    </li>
-      <li>Education</li>
-      <li>
-        <a href="#work">Work Experience</a>
-      </li>
-      <li>
-          <a href ='#skills'>Technical Skills</a>
-        </li>
-      <li>
-          <a href="#contact-me">Contact Me</a>
-        </li>
-    </ul>
+        <label class="menu-button-container" for="menu-toggle">
+          <div class="menu-button"></div>
+        </label>
+        <ul class="menu">
+          <li>
+            <a href="#about-me">About Me</a>
+          </li>
+          <li>
+              <a href ="#education">Education</a>         
+              </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <!-- <li>
+            <a href="#work">Work Experience</a>
+          </li> -->
+          <li>
+            <a href="#skills">Technical Skills</a>
+          </li>
+          <li>
+            <a href="#contact-me">Contact Me</a>
+          </li>
+        </ul>
         <!-- <img class="lights"src ="./assets/images/lightbulb.jpeg" alt="lights"> -->
-    </nav>
-    <section>
+      </nav>
+      <section>
         <div class="hero">
-            <img class="lights"src ="./assets/images/lights.jpeg" alt="lights"> 
-            <h1 class="headline">Enjoy!</h1>
+          <img class="lights" src="./assets/images/coding-green.webp"alt="lights" />
+          <h1 class="headline">Enjoy!</h1>
         </div>
-    </section>
-</header>
+      </section>
+    </header>
 
-<div class="slider"></div>
+    <div class="slider"></div>
+
+    <div class="background">
+      <!--about me section-->
+
+      <div class="about-me">
+        <div class="title mx-auto">
+          <img src="./assets/images/madison-self-photo.JPG" />
+        </div>
+        
+        <div class="info">
+          <h2 id="about-me" class="py-5 text-[40px]">
+            About Me
+          </h2> 
+          Hello, thanks for stopping by this page. My name is Madison Schaaf. I
+          am currently enrolled in a full stack coding bootcamp offered at the
+          University of Utah. I have a Bachelors of Science in Psychology with a
+          Masters of Education in Special Education. I have enjoyed my career
+          these last view years and I am hopeful to find a role integrating full
+          stack development with a company that I can grow with to develop my
+          skills. 
+          <div class="resume">
+            <a class="text-[white]" href="./assets/images/Resume-Madison Schaaf.pdf" target="_blank">Download my resume </a> & Follow me on <a class="text-[#2563eb]" href ="https://www.linkedin.com/in/madison-schaaf-b3b892102/"target ="_blank"> LinkedIn <span class="iconify" data-icon="fa:linkedin" style="color: blue;"></span></a>
+          </div>
+        </div>
+        <!-- <div class="resume"><a href="./assets/images/Resume-Madison Schaaf.pdf" target="_blank">Download my resume</a> and Follow me on <a href ="https://www.linkedin.com/in/madison-schaaf-b3b892102/"target ="_blank"> LinkedIn</a><span class="iconify" data-icon="fa:linkedin" style="color: blue;"></span>
+        </div> -->
+      </div>
+     
+      <!-- Education -->
+      <div>
+        <h2 id="education" class="secondary-heading text-center text-[40px]">
+          Education
+        </h2>
+        <div class="education">
+            <ul>
+                <li class="p-1">Full Stack Development | University of Utah | June 2022</li>
+                <li class="p-1">Master of Education, Special Education | University of Utah | December 2020</li>
+                <li class="p-1">Bachelor of Science, Psychology | University of Utah | May 2016</li>
+            </ul>
+      </div>
+
+      <!-- Projects -->
+      <div>
+        <h2 id="projects" class="secondary-heading text-center text-[40px]">
+          Projects
+        </h2>
+
+        <div class="projects">
+          <!-- first project -->
+          <div class="single-project">
+            <a href="https://code-prep-project.herokuapp.com/" target="_blank"
+              ><img
+                class="w-60 h-55"
+                src="./assets/images/code-prep.png"
+                alt="Website example of Code Prep."
+            /></a>
+            <h4>
+              <a href="https://code-prep-project.herokuapp.com/" target="_blank"
+                >Code Prep</a
+              >
+            </h4>
+            <p>Node.js Sequelize Handlebars</p>
+          </div>
+
+          <!-- second project -->
+          <div class="single-project">
+            <a
+              href="https://noahslusher.github.io/NP-trip-planner/"
+              target="_blank"
+            >
+              <img
+                class="w-60 h-50"
+                src="./assets/images/park-advisor.PNG"
+                alt="A screenshot of Park Advisor."
+            /></a>
+            <h4>
+              <a
+                href="https://noahslusher.github.io/NP-trip-planner/"
+                target="_blank"
+                >Park Advisor</a
+              >
+            </h4>
+            <p>HTML Javascript CSS Tailwind</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- work experience -->
+      
+      <!-- technical skills -->
+      <h2 id="skills" class="pt-9 secondary-heading text-center text-[40px]">Technical Skills</h2>
+      <div>
+          <ul class="skills">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Node.js</li>
+              <li>MySql</li>
+              <li>AJAX</li>
+              <li>Various NPM Packages</li>
+          </ul>
+      </div>
 
 
-<div class="background">
-<!--about me section-->
-<div class="about-me">
-    <h3 id= "about-me" class="text-[24px]">About Me</h3>
-    <p> Hello, thanks for stopping by this page. My name is Madison Schaaf.
-        I am currently enrolled in a full stack coding bootcamp offered at the University of Utah.
-        I have a Bachelors of Science in Psychology with a Masters of Education in Special Education.
-        I have been a teacher for the last five years. This past year I have been teaching a resource class, and interning as a Assistant Principal.  
-        I have enjoyed my career these last view years and I am hopeful to find a role integrating full stack development with a company that I can grow with to develop my skills. 
 
-    </p>
-</div>
+      <!-- contact me -->
+      <h2 id="contact-me" class="pt-9 secondary-heading text-center text-[40px]">Contact Me</h2>
+
+      <address class="address">
+        <a class="contact-info" href="tel:+18016886959">(801)688-6959</a>
+        <a class="contact-info" href="mailto:madisonschaaf48@gmail.com">madisonschaaf48@gmail.com</a>
+        <a class="contact-info" href="https://github.com/mschaaf17">github.com/mschaaf17</a>
+        </address>
 
 
 
+         <!--footer-->
+    <footer>
+        <h5>
+        ❤️ Made with love by Madison Schaaf. </h5>
+        <div>
+            &copy; 2022 Madison Schaaf, Portfolios
+        </div>
+    </footer>
 
+    </div>
 
-
-
-
-</div>
-    
-
-
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src ="./assets/script.js"></script>
-
-</body>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+      integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+      integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./assets/script.js"></script>
+  </body>
 </html>

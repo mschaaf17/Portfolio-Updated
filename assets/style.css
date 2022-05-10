@@ -141,10 +141,10 @@ html, body {
     left: 0;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(#e66465, #9198e5);
+    background: linear-gradient(#73c8ba, #a4b8b3);
     z-index: -3;
       overflow: hidden;
-
+       
 }
 
 nav {
@@ -162,7 +162,7 @@ nav {
 
 section {
     display: flex;
-    height: 80vh;
+    height: 90vh;
     justify-content: center;
     align-items: center;
 
@@ -184,7 +184,7 @@ section {
     top: 70%;
     left: 10%;
     font-size: 100px;
-    transform: translate(-20%, -70%);
+    transform: translate(-15%, -70%);
     color: white;
     z-index: 1;
 }
@@ -203,12 +203,151 @@ section {
 }
 
 .background {
-  background-color: #9198e5;
+  background: linear-gradient( #a4b8b3, #73c8ba);
 
 }
-
+ 
 /* about me section */
 .about-me {
-  margin: 70px 5px 5px 5px;
+  margin: auto;
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
 }
 
+/* .about-me h2 { */
+  /* font-size: 32px;
+  text-align: center; */
+  /* padding: 5px 20px 5px 15px; */
+  /* text-align: center; */
+/* } */
+
+.about-me img {
+  height: 350px;
+  width: 250px;
+  margin: 0px 20px 0px 0px;
+  object-fit: cover;
+  opacity: 0.9;
+  margin-top: 80px;
+  border-radius: 15px;
+
+ 
+}
+
+/* 
+.title {
+
+} */
+
+h2 {
+  padding: 50px 0px 5px 0px;
+  color: white;
+
+}
+
+.info {
+  margin: auto;
+  padding: 10px 0px 10px 0px;
+  width: 50%;
+  /* height: 50vh; */
+  line-height: 22px;
+
+   
+}
+
+/* resume */
+.resume {
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ justify-content: flex-start;
+ margin: auto;
+
+}
+/* education */
+
+.education {
+  text-align: center;
+  margin: 0px 20px;
+
+}
+
+/* projects */
+a:hover {
+  color: gray;
+}
+
+.projects {
+  margin: 5px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+
+
+.projects img {
+  height: 60%;
+}
+
+.projects h4 {
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+}
+.projects p {
+  padding: 5px;
+}
+.single-project {
+  border: solid 2px white;
+  box-shadow: 0 30px 40px rgba(0, 0, 0, 2);
+}
+
+
+/* skills */
+.skills {
+  text-align: center;
+}
+
+/* contact me */
+.address {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 16px;
+  padding: 0px 5px 40px 5px;
+}
+
+footer {
+  font-size: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (min-width: 900px) {
+  /* about me section */
+.about-me img {
+  height: 350px;
+  width: 250px;
+  margin: 0px 0px 0px 80px;
+  object-fit: cover;
+  opacity: 0.9;
+  margin-top: 80px;
+  border-radius: 15px; 
+}
+
+.info {
+  margin: auto;
+  padding: 10px 50px 10px 0px;
+  width: 50%;
+  line-height: 22px;   
+}
+  }
+
+    
+  
