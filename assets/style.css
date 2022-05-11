@@ -357,7 +357,7 @@ footer {
 
   @media (min-width: 600px) {
   .info {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;   
 
   }
@@ -368,6 +368,3 @@ footer {
     font-size: 18px;
   }
 }
-
-    
-  
