@@ -311,11 +311,16 @@ a:hover {
 }
 .projects p {
   padding: 5px;
+  text-align: center;
 }
 .single-project {
   border: solid 2px white;
   box-shadow: 0 30px 40px rgba(0, 0, 0, 2);
+  padding: 15px;
+  margin: 10px 0;
 }
+
+
 
 
 /* skills */
