@@ -11,8 +11,7 @@
 A personal website portfolio 
 *Built with:HTML, CSS, Tailwind, and Javascript, MySQL2
 
-![image](https://user-images.githubusercontent.com/97362296/169325254-0f65697f-6601-4b6b-b0b2-cd5ccf9c3f0b.png)
-![image](https://user-images.githubusercontent.com/97362296/169325408-9d2d1c13-fe18-40e6-b561-3cf64a403920.png)
+![image](https://user-images.githubusercontent.com/97362296/183311994-6da48736-4871-41c9-91ce-9ba777399d99.png)
 
 
 
